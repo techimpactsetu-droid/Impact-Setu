@@ -10,6 +10,7 @@ import * as z from "zod";
 const bookingSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
   email: z.string().email("Invalid email address"),
+  phone: z.string().min(10, "Please enter a valid phone number"),
   orgType: z.string().min(1, "Please select an organization type"),
   message: z.string().min(10, "Please briefly describe your needs (min 10 chars)"),
 });
@@ -30,10 +31,19 @@ export function ConsultationWidget() {
   });
 
   const onSubmit = async (data: BookingFormValues) => {
-    // Simulate API submission
-    await new Promise((resolve) => setTimeout(resolve, 1200));
-    setIsSuccess(true);
-    reset();
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...data, formType: "consultation" }),
+      });
+      if (res.ok) {
+        setIsSuccess(true);
+        reset();
+      }
+    } catch {
+      // Handle error gracefully if needed
+    }
   };
 
   const handleClose = () => {
@@ -159,6 +169,22 @@ export function ConsultationWidget() {
                       />
                       {errors.email && (
                         <p className="text-[10px] text-red-500 font-semibold">{errors.email.message}</p>
+                      )}
+                    </div>
+
+                    {/* Phone Number */}
+                    <div className="space-y-1">
+                      <label className="text-xs font-bold text-[#2C1E15] dark:text-white uppercase tracking-wider block">
+                        Phone Number
+                      </label>
+                      <input
+                        type="tel"
+                        {...register("phone")}
+                        className="w-full px-4 py-2.5 rounded-xl border bg-white dark:bg-zinc-950 border-amber-900/15 dark:border-zinc-800 text-xs focus:outline-none focus:ring-1 focus:ring-[#B58A63] transition-colors"
+                        placeholder="+91 9876543210"
+                      />
+                      {errors.phone && (
+                        <p className="text-[10px] text-red-500 font-semibold">{errors.phone.message}</p>
                       )}
                     </div>
 
