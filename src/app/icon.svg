@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Background with subtle gradient -->
+  <rect width="512" height="512" rx="128" fill="url(#bg-gradient)"/>
+  
+  <!-- Left Pillar -->
+  <path d="M160 380 V180" stroke="#FDFBF7" stroke-width="48" stroke-linecap="round"/>
+  
+  <!-- Right Pillar -->
+  <path d="M352 380 V180" stroke="#FDFBF7" stroke-width="48" stroke-linecap="round"/>
+  
+  <!-- Connecting Bridge (Arch) -->
+  <path d="M160 220 Q256 120 352 220" stroke="#B58A63" stroke-width="48" stroke-linecap="round" fill="none"/>
+  
+  <!-- Impact Spark (Center Dot) -->
+  <circle cx="256" cy="190" r="24" fill="#B58A63"/>
+
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4E3629" />
+      <stop offset="100%" stop-color="#2C1E15" />
+    </linearGradient>
+  </defs>
+</svg>
