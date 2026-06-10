@@ -4,10 +4,8 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 export default function Template({ children }: { children: React.ReactNode }) {
-  const [isMounted, setIsMounted] = useState(false);
-
   useEffect(() => {
-    setIsMounted(true);
+    // mounted
   }, []);
 
   return (

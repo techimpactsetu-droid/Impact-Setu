@@ -84,7 +84,7 @@ export default function Contact() {
         const err = await res.json();
         setErrorMsg(err.error || "Something went wrong.");
       }
-    } catch (error) {
+    } catch {
       setErrorMsg("Network error. Please try again later.");
     } finally {
       setIsLoading(false);

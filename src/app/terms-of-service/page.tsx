@@ -58,7 +58,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-xl font-bold text-[#2C1E15] dark:text-white mb-3">5. Disclaimer of Warranties</h2>
             <p>
-              This website is provided "as is," with all faults, and ImpactSetu expresses no representations or warranties, 
+              This website is provided &quot;as is,&quot; with all faults, and ImpactSetu expresses no representations or warranties, 
               of any kind related to this website or the materials contained on this website. While we strive for excellence, 
               we do not guarantee that the website will be uninterrupted, error-free, or completely secure.
             </p>
