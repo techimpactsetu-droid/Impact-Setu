@@ -35,6 +35,14 @@ const projects = [
     desc: "An immersive, premium restaurant website designed to drive reservations and showcase culinary excellence through dynamic layouts.",
     url: "https://paradise-demo-roan.vercel.app/",
   },
+  {
+    title: "Shakti Foundation Website",
+    category: "NGO & Non-Profit",
+    tech: ["Next.js", "Donations", "Responsive"],
+    image: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=600&auto=format&fit=crop",
+    desc: "A powerful platform designed to amplify the mission of Shakti Foundation, featuring streamlined donation flows and engaging community stories.",
+    url: "https://shakti-demo-nine.vercel.app/",
+  },
 ];
 
 export function PortfolioShowcase() {

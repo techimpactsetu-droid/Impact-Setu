@@ -51,6 +51,21 @@ const caseStudies = [
     image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&auto=format&fit=crop",
     url: "https://sparshrajasthan.in",
   },
+  {
+    id: "shakti",
+    title: "Shakti Foundation Website",
+    category: "Non-Profit Organization",
+    challenge: "Required a digital platform to amplify their mission, manage donations efficiently, and share impactful community stories.",
+    solution: "Designed a powerful, responsive platform featuring streamlined donation flows and engaging content layouts to drive engagement.",
+    features: [
+      "Streamlined Donations",
+      "Responsive Layouts",
+      "Impact Stories",
+      "Community Outreach",
+    ],
+    image: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=800&auto=format&fit=crop",
+    url: "https://shakti-demo-nine.vercel.app/",
+  },
 ];
 
 export function CaseStudyGallery() {
