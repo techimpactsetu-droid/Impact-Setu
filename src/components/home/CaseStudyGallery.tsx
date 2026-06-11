@@ -23,7 +23,7 @@ const caseStudies = [
   },
   {
     id: "inky",
-    title: "The Inky Cafe Platform",
+    title: "Brew and Beans Cafe",
     category: "Modern Coffee Shop",
     challenge: "Needed a high-conversion digital presence that told their brand story visually while offering a seamless way to view their artisan menu.",
     solution: "Built a visually stunning, animation-rich landing page using Framer Motion to showcase their aesthetic, improving online engagement by 40%.",
@@ -34,7 +34,7 @@ const caseStudies = [
       "SEO Optimized Setup",
     ],
     image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop",
-    url: "https://cafe-demo-inky.vercel.app/",
+    url: "https://brewand-beans-demo.vercel.app/",
   },
   {
     id: "ngo",
