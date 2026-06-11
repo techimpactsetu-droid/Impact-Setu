@@ -19,7 +19,7 @@ const caseStudies = [
       "Mobile-First Experience",
     ],
     image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=800&auto=format&fit=crop",
-    url: "https://paradise-demo-roan.vercel.app/",
+    url: "https://paradise-demo-one.vercel.app/",
   },
   {
     id: "inky",
