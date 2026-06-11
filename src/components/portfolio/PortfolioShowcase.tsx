@@ -43,6 +43,14 @@ const projects = [
     desc: "A powerful platform designed to amplify the mission of Shakti Foundation, featuring streamlined donation flows and engaging community stories.",
     url: "https://shakti-demo-nine.vercel.app/",
   },
+  {
+    title: "Rashtriya Mook Badhir Vidyalaya",
+    category: "NGO & Non-Profit",
+    tech: ["Next.js", "Accessibility", "Tailwind CSS"],
+    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=600&auto=format&fit=crop",
+    desc: "An inclusive and accessible educational platform built to empower differently-abled students and foster community engagement.",
+    url: "https://rashtriya-mook-demo.vercel.app/",
+  },
 ];
 
 export function PortfolioShowcase() {

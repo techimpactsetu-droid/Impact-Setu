@@ -66,6 +66,21 @@ const caseStudies = [
     image: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=800&auto=format&fit=crop",
     url: "https://shakti-demo-nine.vercel.app/",
   },
+  {
+    id: "mookbadhir",
+    title: "Rashtriya Mook Badhir Vidyalaya",
+    category: "Education & Accessibility",
+    challenge: "Needed an accessible and inclusive digital presence to connect with students, parents, and potential donors while highlighting their educational programs.",
+    solution: "Developed an intuitive, highly accessible platform with specialized features for seamless communication and resource sharing.",
+    features: [
+      "High Accessibility Standards",
+      "Interactive Programs Showcase",
+      "Donation & Support Portal",
+      "Multilingual Architecture",
+    ],
+    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=800&auto=format&fit=crop",
+    url: "https://rashtriya-mook-demo.vercel.app/",
+  },
 ];
 
 export function CaseStudyGallery() {
