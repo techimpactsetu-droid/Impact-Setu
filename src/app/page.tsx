@@ -4,7 +4,9 @@ import { Stats } from "@/components/home/Stats";
 import { ServicesTeaser } from "@/components/home/ServicesTeaser";
 import { IndustriesTeaser } from "@/components/home/IndustriesTeaser";
 import { ProcessSection } from "@/components/home/ProcessSection";
+import { CaseStudyGallery } from "@/components/home/CaseStudyGallery";
 import { FaqSection } from "@/components/home/FaqSection";
+import { CtaSection } from "@/components/home/CtaSection";
 
 export default function Home() {
   return (
@@ -12,10 +14,11 @@ export default function Home() {
       <Hero />
       <Stats />
       <ServicesTeaser />
+      <CaseStudyGallery />
       <ProcessSection />
       <IndustriesTeaser />
-
       <FaqSection />
+      <CtaSection />
     </PageWrapper>
   );
 }

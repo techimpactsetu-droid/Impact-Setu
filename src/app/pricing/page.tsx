@@ -2,6 +2,7 @@ import React from "react";
 import { Metadata } from "next";
 import { PageWrapper } from "@/components/PageWrapper";
 import { PricingTable } from "@/components/pricing/PricingTable";
+import { MaintenancePlans } from "@/components/pricing/MaintenancePlans";
 
 export const metadata: Metadata = {
   title: "Pricing Packages | ImpactSetu",
@@ -27,10 +28,10 @@ export default function Pricing() {
         </div>
       </section>
 
-      {/* Pricing table wrap */}
       <section className="py-20 bg-transparent transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <PricingTable />
+          <MaintenancePlans />
         </div>
       </section>
     </PageWrapper>
