@@ -12,7 +12,7 @@ export function Footer() {
           
           {/* Logo & Copyright */}
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
-            <Link href="/">
+            <Link href="/" className="inline-block cursor-pointer z-10 relative" aria-label="Go to homepage">
               <Logo className="h-6 w-auto grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
             </Link>
             <span className="text-slate-300 dark:text-slate-800 hidden sm:inline">|</span>
