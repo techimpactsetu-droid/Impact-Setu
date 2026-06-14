@@ -11,9 +11,9 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           
           {/* Logo & Copyright */}
-          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
-            <Link href="/" className="inline-block cursor-pointer z-10 relative" aria-label="Go to homepage">
-              <Logo className="h-6 w-auto grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 z-10">
+            <Link href="/" className="inline-block cursor-pointer relative" aria-label="Go to homepage">
+              <Logo className="h-10 md:h-12 w-auto grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
             </Link>
             <span className="text-slate-300 dark:text-slate-800 hidden sm:inline">|</span>
             <p className="text-[#5D4D44] dark:text-slate-400 text-xs font-medium">
